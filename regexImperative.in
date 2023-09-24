@@ -1,0 +1,10 @@
+SPACE (' ')*|'\t';
+NEWLINE '\n';
+IF (if)|(else)|(then)|(fi);
+INSTRLIST (begin)|(end);
+WHILE (while)|(do)|(od);
+CARAC [a-z]+|('-'[0-9]+)|[0-9]+;
+ASSIGN '=';
+OP '-'|'+'|'*';
+COND '('|')';
+COMP '>'|('=''=');

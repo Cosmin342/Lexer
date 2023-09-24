@@ -1,0 +1,87 @@
+[
+  assign [
+    variable [
+      a
+    ]
+    integer [
+      10
+    ]
+  ]
+  assign [
+    variable [
+      b
+    ]
+    integer [
+      3
+    ]
+  ]
+  while [
+    greaterthan [
+      variable [
+        a
+      ]
+      integer [
+        0
+      ]
+    ]
+    do [
+      assign [
+        variable [
+          b
+        ]
+        multiply [
+          variable [
+            b
+          ]
+          variable [
+            a
+          ]
+        ]
+      ]
+      assign [
+        variable [
+          a
+        ]
+        minus [
+          variable [
+            a
+          ]
+          integer [
+            3
+          ]
+        ]
+      ]
+      if [
+        greaterthan [
+          variable [
+            b
+          ]
+          integer [
+            50
+          ]
+        ]
+        then assign [
+          variable [
+            a
+          ]
+          integer [
+            0
+          ]
+        ]
+        else assign [
+          variable [
+            a
+          ]
+          plus [
+            variable [
+              a
+            ]
+            integer [
+              1
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]

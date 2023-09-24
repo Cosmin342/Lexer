@@ -1,0 +1,56 @@
+[
+  assign [
+    variable [
+      r
+    ]
+    integer [
+      1
+    ]
+  ]
+  assign [
+    variable [
+      a
+    ]
+    integer [
+      5
+    ]
+  ]
+  while [
+    greaterthan [
+      variable [
+        a
+      ]
+      integer [
+        0
+      ]
+    ]
+    do [
+      assign [
+        variable [
+          r
+        ]
+        multiply [
+          variable [
+            r
+          ]
+          variable [
+            a
+          ]
+        ]
+      ]
+      assign [
+        variable [
+          a
+        ]
+        minus [
+          variable [
+            a
+          ]
+          integer [
+            1 
+          ]
+        ]
+      ]
+    ]
+  ]
+]

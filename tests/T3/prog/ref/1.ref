@@ -1,0 +1,10 @@
+[
+  assign [
+    variable [
+      a
+    ]
+    integer [
+      1
+    ]
+  ]
+]

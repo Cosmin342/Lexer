@@ -1,0 +1,9 @@
+SPACE  
+DS d
+SPACE  
+ABS abab
+SPACE  
+DS dd
+ABCORC abc
+ABCORC abc
+ABCORC c

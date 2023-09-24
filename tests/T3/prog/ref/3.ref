@@ -1,0 +1,49 @@
+[
+  assign [
+    variable [
+      a
+    ]
+    integer [
+      1
+    ]
+  ]
+  assign [
+    variable [
+      r
+    ]
+    integer [
+      0
+    ]
+  ]
+  if [
+    equals [
+      variable [
+        a
+      ]
+      integer [
+        2
+      ]
+    ]
+    then assign [
+      variable [
+        r
+      ]
+      plus [
+        variable [
+          a
+        ]
+        integer [
+          3
+        ]
+      ]
+    ]
+    else assign [
+      variable [
+        r
+      ]
+      variable [
+        a
+      ]
+    ]
+  ]
+]

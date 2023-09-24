@@ -1,0 +1,54 @@
+[
+  assign [
+    variable [
+      a
+    ]
+    integer [
+      2
+    ]
+  ]
+  assign [
+    variable [
+      b
+    ]
+    integer [
+      3
+    ]
+  ]
+  if [
+    greaterthan [
+      plus [
+        variable [
+          a
+        ]
+        variable [
+          b
+        ]
+      ]
+      integer [
+        3
+      ]
+    ]
+    then assign [
+      variable [
+        r
+      ]
+      minus [
+        variable [
+          a
+        ]
+        variable [
+          b
+        ]
+      ]
+    ]
+    else assign [
+      variable [
+        r
+      ]
+      variable [
+        b
+      ]
+    ]
+  ]
+]

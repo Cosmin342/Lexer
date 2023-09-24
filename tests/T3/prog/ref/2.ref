@@ -1,0 +1,42 @@
+[
+  assign [
+    variable [
+      a
+    ]
+    integer [
+      1
+    ]
+  ]
+  assign [
+    variable [
+      b
+    ]
+    integer [
+      2
+    ]
+  ]
+  assign [
+    variable [
+      c
+    ]
+    variable [
+      b
+    ]
+  ]
+  assign [
+    variable [
+      b
+    ]
+    variable [
+      a
+    ]
+  ]
+  assign [
+    variable [
+      a
+    ]
+    variable [
+      c
+    ]
+  ]
+]
