@@ -1,7 +1,7 @@
 import sys
 from RegexConverter import Expr
 from RegexConverter import Lexer
-from ast import InstructionList, Assign, Expres, If, While
+from ast_utils import InstructionList, Assign, Expres, If, While
 
 #Functie ce va parsa toate caracterele dintr-o expresie regulata
 def parse_all(word):
